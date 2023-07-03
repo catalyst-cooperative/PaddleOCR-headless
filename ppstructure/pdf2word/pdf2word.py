@@ -23,7 +23,6 @@ import platform
 import numpy as np
 import fitz
 from PIL import Image
-from pdf2docx.converter import Converter
 from qtpy.QtWidgets import QApplication, QWidget, QPushButton, QProgressBar, \
                            QGridLayout, QMessageBox, QLabel, QFileDialog, QCheckBox
 from qtpy.QtCore import Signal, QThread, QObject
